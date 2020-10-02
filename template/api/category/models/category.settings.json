@@ -2,22 +2,24 @@
   "kind": "collectionType",
   "collectionName": "categories",
   "info": {
-    "name": "Category"
+    "name": "category"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "title": {
+    "name": {
       "type": "string"
     },
-    "description": {
-      "type": "text"
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
     },
-    "projects": {
+    "products": {
       "via": "categories",
-      "collection": "project"
+      "collection": "product",
+      "dominant": true
     }
   }
 }
