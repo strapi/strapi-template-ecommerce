@@ -17,3 +17,4 @@ npx create-strapi-app my-app-name --template https://github.com/strapi/strapi-te
 This template is used by the following starters:
 
 * [Strapi Starter Nuxt.js E-commerce](https://github.com/strapi/strapi-starter-nuxt-e-commerce)
+* [Strapi Starter Next.js E-commerce](https://github.com/strapi/strapi-starter-next-ecommerce)
