@@ -1,3 +1,9 @@
+**:no_entry: DEPRECATED**
+
+This repository is no longer maintained and only works for Strapi v3. You can find the latest Strapi v4 version of this template on the [starters-and-templates monorepo](https://github.com/strapi/starters-and-templates/tree/main/packages/templates/ecommerce).
+
+---
+
 # strapi-template-ecommerce
 
 A Strapi template to create Strapi projects pre-configured for e-commerce apps.
@@ -5,11 +11,7 @@ A Strapi template to create Strapi projects pre-configured for e-commerce apps.
 ## Usage
 
 ```bash
-# Using Yarn
-yarn create strapi-app my-app-name --template https://github.com/strapi/strapi-template-ecommerce
-
-# Or using NPM
-npx create-strapi-app my-app-name --template https://github.com/strapi/strapi-template-ecommerce
+npx create-strapi-app@3 my-app-name --template https://github.com/strapi/strapi-template-ecommerce
 ```
 
 ## Starters
